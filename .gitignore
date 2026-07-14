@@ -1,7 +1,7 @@
 # IntelliJ IDEA
-.idea/
-*.iml
-out/
+**/.idea/
+**/*.iml
+**/out/
 
 # VS Code
-.vscode/
+**/.vscode/
