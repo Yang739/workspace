@@ -2,11 +2,11 @@
 
 > Yang的私人代码仓库
 >
-> 记录我的学习过程
+> 记录我的练习代码
 
-## 目录
+## 目录结构
 
-├── algorithms/           # 算法与数据结构专项练习
+├── algorithms/           # 算法与数据结构练习
 
 │  ├── 01-数组/
 
@@ -30,7 +30,7 @@
 
 │
 
-├── javaBackend/          # Java后端全栈学习
+├── javaBackend/          # Java后端学习
 
 │  ├── coreJava/
 
@@ -54,22 +54,8 @@
 
 │
 
-├── notes/              # 所有学习笔记（Markdown为主）
+└── projects/            # 练手项目
 
-│  ├── algorithms/
+​    ├── LibrarySystem
 
-│  ├── java/
-
-│  ├── spring/
-
-│  ├── database/
-
-│  ├── linux/
-
-│  └── tools/
-
-│
-
-└── projects/            # 完整的练手项目
-
-​    └── LibrarySystem
+​    └── BankAccount
