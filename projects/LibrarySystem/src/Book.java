@@ -1,10 +1,24 @@
 /**
- * 图书类，继承 Item 并实现 Chargeable 接口
- * 增加作者属性，罚款每天0.5元
+ * 图书类
+ * <p>
+ *     <ul>
+ *         <li>继承 {@link Item} 并实现 {@link Chargeable} 接口</li>
+ *         <li>增加作者属性，罚款每天0.5元</li>
+ *     </ul>
+ * </p>
  */
 public class Book extends Item implements Chargeable{
-    private String author;
 
+    /** 作者姓名 */
+    private final String author;
+
+    /**
+     * 构造一本图书
+     *
+     * @param id 编号
+     * @param title 标题
+     * @param author 作者
+     */
     public Book(String id, String title, String author){
         super(id, title);
         this.author = author;
