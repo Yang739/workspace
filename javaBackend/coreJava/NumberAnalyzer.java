@@ -1,3 +1,7 @@
+package coreJava;
+
+import java.util.Scanner;
+
 /**
  * 数字特征计算器
  * <p>
@@ -14,10 +18,6 @@
  *
  * @since 2026-07-14
  */
-package coreJava;
-
-import java.util.Scanner;
-
 public class NumberAnalyzer {
     public static void main(String[] args){
         analyzeNumbers();
