@@ -84,7 +84,7 @@ public class TestContactManager {
              BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(fastDest))) {
             byte[] buffer = new byte[8192];
             int bytesRead;
-            while((bytesRead = bis.read()) != -1) {
+            while((bytesRead = bis.read(buffer)) != -1) {
                 bos.write(buffer, 0 ,bytesRead);
             }
         } catch (IOException e) {
