@@ -73,10 +73,10 @@ public class ContactManager {
     public void exportToCSV(String filePath) throws IOException {
         try (BufferedWriter writer = new BufferedWriter(
                 new OutputStreamWriter(new FileOutputStream(filePath), StandardCharsets.UTF_8))) {
-            writer.write("姓名，电话，邮箱");
+            writer.write("姓名,电话,邮箱");
             writer.newLine();
             for (Contact c : contacts) {
-                writer.write(String.format("%s，%s，%s",c.getName(),c.getPhone(),c.getEmail()));
+                writer.write(String.format("%s,%s,%s",c.getName(),c.getPhone(),c.getEmail()));
                 writer.newLine();
             }
         }
