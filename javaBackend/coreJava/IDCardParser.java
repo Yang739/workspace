@@ -1,3 +1,11 @@
+package coreJava;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
+import java.util.Random;
+import java.util.Scanner;
+
 /**
  * 身份证信息解析器
  * <p>
@@ -20,14 +28,6 @@
  *
  * @since 2026-07-14
  */
-package coreJava;
-
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeParseException;
-import java.util.Random;
-import java.util.Scanner;
-
 public class IDCardParser {
     public static void main() {
 
