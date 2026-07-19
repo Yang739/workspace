@@ -29,7 +29,7 @@ import java.util.Scanner;
  * @since 2026-07-14
  */
 public class IDCardParser {
-    public static void main() {
+    public static void main(String[] args) {
 
         //交互部分
         Scanner scanner = new Scanner(System.in);
